@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: flask-app
-        image: 998902534284.dkr.ecr.ap-northeast-2.amazonaws.com/test-repository:IMAGE_VERSION
+        image: 962586876492.dkr.ecr.ap-northeast-2.amazonaws.com/jenkins-test:v0.3
         imagePullPolicy: Always
         ports:
         - containerPort: 80
